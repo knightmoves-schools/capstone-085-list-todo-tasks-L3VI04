@@ -26,8 +26,3 @@ function drawCards(){
 }
 
 document.getElementById('todo-cards').innerHTML = drawCards();
-    
-    return output;
-}
-
-document.getElementById('todo-cards').innerHTML = drawCards();
