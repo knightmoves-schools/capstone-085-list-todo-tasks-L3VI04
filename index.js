@@ -18,6 +18,14 @@ function drawCards(){
     
     // Add Your Code Here
     // add card for each task
+    for (let i = 0; i < tasks.length; i++) {
+        output += drawCard(i, tasks[i]);
+    }
+
+    return output;
+}
+
+document.getElementById('todo-cards').innerHTML = drawCards();
     
     return output;
 }
